@@ -5,12 +5,16 @@
 \usepackage{amsmath, amsthm, amssymb, amsfonts}
 \usepackage{booktabs}
 \usepackage[font=small, labelfont=bf]{caption}
-
+\setbeamercovered{transparent}
 \usepackage{graphicx}
 \usepackage{epsfig}
-
+\usepackage{tikz}
+\usepackage{xcolor}
 \usepackage{colortbl}
+
 \newcommand{\x}[1]{\alert{#1}}
+\definecolor{darkblue}{RGB}{0,0,139} % Defining dark blue color
+\newcommand{\filledsquare}{\tikz \draw[fill=darkblue] (0,0) rectangle (0.2,0.2);}
 
 \begin{document}
 	\title{A Statistician’s Experience}
@@ -24,27 +28,40 @@
 		October 27, 2018}
 		\date[]{}
 \frame{\titlepage}
+
+
 \begin{frame}
 \frame{\frametitle{Disclaimer}}
 \centering\textbf{\underline{Disclamer}}\\
 The materials presented are solely the views of the presenter\\
 Abidemi K. Adeniji.
 \end{frame}
-\frame{\frametitle{Overview}\tableofcontents}
-%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%Table of content%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frame{\frametitle{Overview}\tableofcontents[hideallsubsections]}
+
+%%%%%%%%%%%%%%%%%%%%%%%% First section%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Preparation}
 \frame{\frametitle{Outline}
 \tableofcontents[currentsection, currentsubsection]
 }
 \begin{frame}
-\frame{\frametitle{Preparation}}
-
+\frame{\frametitle{School preparation}}
+\center
+\textbf{Public Speaking}\\
 \begin{itemize}
-\item School preparation
-\end{itemize}
+	\item[\filledsquare] Actively seek opportunities to present.
+		\begin{itemize}
+	\item[\filledsquare] In group projects, ask to be the speaker.
+		\end{itemize}
+\end{itemize}	
 \end{frame}
 
-%%
+\begin{frame}
+	\frame{\frametitle{School preparation}}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%Second section%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{On-site Interview}
 \frame{\frametitle{Outline}
 \tableofcontents[currentsection, currentsubsection]
